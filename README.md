@@ -4,7 +4,7 @@ Application to create AWS Lambda based on Scala with API Gateway Trigger and SNS
 This application is a simple implementation using serverless library to jumpstart development using Scala and show how AWS Lambda can be leveraged along with SNS/SQS and HTTP Api gateway to create a Event sourced application. 
 
 
-# Set up 
+#Set up 
 
 Download and install from Serverless framework from Serverless.com. This will ease creation of configuration scripts for AWS Lambda
 
