@@ -67,5 +67,11 @@ As API Gateway POST Async request
 
 > set Request Body passthrough to When no template matches the request Content-Type header  with no templates available.
 
+As API Gateway POST Sync request
+> set Integration Request "Use Lambda Proxy Integration" to true
+
+> Unset Http Header "X-Amz-Invocation-Type" to 'Event'
+
+
 
 
